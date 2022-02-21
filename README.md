@@ -14,6 +14,9 @@ There are three endpoints implemented:
 
 
 ## Running the application
+
+You can run the server by providing the HTTP address: `HISTORY_SERVER_LISTEN_ADDR`. If this is not provided, the listen address default to `:8080` 
+
 First build the application
 ```
 go build
